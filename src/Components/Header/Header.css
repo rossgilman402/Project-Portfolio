@@ -1,0 +1,22 @@
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+h2 {
+  cursor: default;
+}
+
+@media screen and (max-width: 650px) {
+  .header-container {
+    display: block;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

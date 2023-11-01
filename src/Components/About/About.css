@@ -1,0 +1,103 @@
+.about-container {
+  margin: 150px 150px;
+  border: 1px dashed black;
+  border-radius: 10px;
+}
+
+.title-container {
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.title-container p {
+  margin: 10px 120px;
+  text-align: center;
+}
+
+h3 {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.education-container {
+  margin-left: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.columbia-information {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+  gap: 20px;
+}
+
+.columbia-information img {
+  height: auto;
+  width: 125px;
+}
+
+.wisconsin-information {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+  gap: 70px;
+}
+
+.wisconsin-information img {
+  height: auto;
+  width: 125px;
+}
+
+.badger-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.columbia-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.internship-container {
+  margin-top: 25px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.relay-information img {
+  height: auto;
+  width: 125px;
+}
+
+.relay-information {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+  gap: 200px;
+}
+
+.relay-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.technical-container p {
+  margin: 20px;
+  text-align: center;
+}

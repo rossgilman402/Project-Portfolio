@@ -1,0 +1,12 @@
+.social-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.social-container img {
+  height: auto;
+  width: 20px;
+  cursor: pointer;
+}
