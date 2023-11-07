@@ -1,7 +1,14 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-container {
-  margin: 150px 150px;
   border: 1px dashed black;
   border-radius: 10px;
+  width: 65%;
+  height: auto;
 }
 
 .title-container {
