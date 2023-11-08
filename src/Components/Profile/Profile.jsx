@@ -11,7 +11,7 @@ const Profile = () => {
       <div className="introduction-container">
         <p>Hello, I&apos;m</p>
         <h1>Ross Gilman</h1>
-        <p>FullStack Developer</p>
+        <p>Full-Stack Developer</p>
         <div className="button-container">
           <a
             href={Resume}
