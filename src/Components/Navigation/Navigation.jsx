@@ -1,20 +1,18 @@
 import "./Navigation.css";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <div>
       <ul className="list-container">
         <li>
-          <a href="#Home">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#About">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#Projects">Projects</a>
-        </li>
-        <li>
-          <a href="#Contact">Contact</a>
+          <Link to="/project">Projects</Link>
         </li>
       </ul>
     </div>

@@ -1,3 +1,4 @@
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Profile from "./Components/Profile/Profile";
 import About from "./Components/About/About";
@@ -7,13 +8,15 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-      <Profile />
-      <About />
-      <Project />
+      <Routes>
+        <Route path="/" element={<Profile />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

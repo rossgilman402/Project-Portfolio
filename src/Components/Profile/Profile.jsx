@@ -1,7 +1,6 @@
 import "./Profile.css";
 import profilePicture from "../../assets/rosspic.jpg";
 import Resume from "../../assets/resume.pdf";
-import Social from "../Social/Social";
 
 const Profile = () => {
   return (
@@ -22,11 +21,15 @@ const Profile = () => {
           >
             Download Resume
           </a>
-          <a href="#" id="contact-button">
+          <a
+            onClick={() =>
+              window.open("mailto:rossgilman402@gmail.com", "_blank")
+            }
+            id="contact-button"
+          >
             Contact Me
           </a>
         </div>
-        <Social />
       </div>
     </div>
   );
