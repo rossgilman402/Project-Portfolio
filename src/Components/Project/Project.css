@@ -77,3 +77,43 @@
   text-decoration: none;
   margin-bottom: 5px;
 }
+
+/* Media Query for phones */
+@media (max-width: 768px) {
+  .project-container {
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-card img {
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .card-body {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .card-body h1 {
+    font-size: 30px;
+  }
+
+  .card-body p {
+    font-size: 12px;
+  }
+}
